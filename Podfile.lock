@@ -1,0 +1,21 @@
+PODS:
+  - LocatorLibrary (0.1.0)
+
+DEPENDENCIES:
+  - LocatorLibrary (from `https://github.com/vinayshi/LocatorLibrary.git`)
+
+EXTERNAL SOURCES:
+  LocatorLibrary:
+    :git: https://github.com/vinayshi/LocatorLibrary.git
+
+CHECKOUT OPTIONS:
+  LocatorLibrary:
+    :commit: 1892c3fd63ee67fc1813ebb76688c5603a2336e0
+    :git: https://github.com/vinayshi/LocatorLibrary.git
+
+SPEC CHECKSUMS:
+  LocatorLibrary: c2409d3b7e8f20c1883ba213cfe884899644a9ca
+
+PODFILE CHECKSUM: cc33bbd4c60bdeb6e8907421e45bf694d5bc19ad
+
+COCOAPODS: 1.3.1

@@ -1,0 +1,20 @@
+{
+  "name": "LocatorLibrary",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "summary": "Locator lib a user select an branch.",
+  "requires_arc": true,
+  "version": "0.1.0",
+  "license": "No License",
+  "authors": {
+    "Pod Spec": "vinay.shivanna@photoninfotech.net"
+  },
+  "homepage": "https://github.com/vinayshi/Locator",
+  "source": {
+    "git": "https://github.com/vinayshi/Locator.git",
+    "tag": "0.0.0"
+  },
+  "source_files": "LocatorLibrary/**/*.{swift}",
+  "resources": "LocatorLibrary/**/*.{png,jpeg,jpg,storyboard,xib,.plist}"
+}

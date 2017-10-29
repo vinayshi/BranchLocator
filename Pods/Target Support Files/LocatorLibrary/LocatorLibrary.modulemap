@@ -1,0 +1,6 @@
+framework module LocatorLibrary {
+  umbrella header "LocatorLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

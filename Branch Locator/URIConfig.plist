@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   URIConfig.plist
-   Branch Locator
-
-   Created by Vinay Shivanna on 10/28/17.
-   Copyright (c) 2017 Vinay Shivanna. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<dict>
+	<key>googleMapsKey</key>
+	<string>AIzaSyCMCvKWUUz6eDTWYqTZq22rmVHwPfXe-D4</string>
+	<key>googleGeoCode</key>
+	<string>https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyCMCvKWUUz6eDTWYqTZq22rmVHwPfXe-D4&amp;address=</string>
+	<key>googleAutoComplete</key>
+	<string>https://maps.googleapis.com/maps/api/place/autocomplete/json?key=AIzaSyCMCvKWUUz6eDTWYqTZq22rmVHwPfXe-D4&amp;</string>
+	<key>googleDistanceMatrix</key>
+	<string>https://maps.googleapis.com/maps/api/distancematrix/json?mode=driving&amp;units=imperial&amp;language=en-EN?key=AIzaSyCMCvKWUUz6eDTWYqTZq22rmVHwPfXe-D4&amp;</string>
+	<key>testStoreLocaterURL</key>
+	<string>https://m.chase.com/PSRWeb/location/list.action?</string>
+</dict>
 </plist>

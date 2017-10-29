@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010B00E1395BA47DAD84A45102CBB351 /* LocatorLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A719A895819B1B2319BC4CEBE58ED18F /* LocatorLibrary-dummy.m */; };
+		0228F50BB041CF1C33937E1E55DB21F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD8BFADBCC674FE8AA27E3AE0BA79FA /* ViewController.swift */; };
+		0620A2BD56C2561F8E94DA80BEC8518D /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CD3D4ED56700F7D0DDF20A53040CD7 /* ColorExtension.swift */; };
+		0A7F695D4AD63732630A3EBF6D3F6E13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		25E3565C154C511E9BAF4EDECD0A6FF2 /* LocatorLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96F54CCF011E46A1B721AE52A7D2DFC5 /* LocatorLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30F6E9171B9CDEB25A8A39EB4DB8FE5C /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCABDF57947B57A0180B6053F8104CCB /* BaseService.swift */; };
+		4D9E33C5429C6B7F7FE254BC30EC7AFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4DADACFB7378C4B0C2EB5EBE420D10D6 /* Pods-Branch LocatorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E8FDCD2250F9D4AC80F27AFDBD260D /* Pods-Branch LocatorTests-dummy.m */; };
+		590117AFC33FA4959496A7C30DBEEE78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2F0B0F464D7A658CECB142BAB44D8C /* LaunchScreen.storyboard */; };
+		78B6F6705BB88F0C703072162491EC2E /* ServiceIdentifierEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA6616DE99629864D1869192C8C59F5 /* ServiceIdentifierEnum.swift */; };
+		82EAE0E7D9268C1171A647BFED58166D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		87F618D8A4E44257318C9B85E917996D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D7D6EAA0FB106C46642BFEAEBC6C17 /* LocationManager.swift */; };
+		887AACFE5023564029653B90C1150B4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89407652FA05147D62799DB8C90F202 /* Main.storyboard */; };
+		8CDB3E4E65E3E2CE984B7AEF168C4DCF /* Pods-Branch Locator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 490FFB14CA35CC63304E81F38D4DC31E /* Pods-Branch Locator-dummy.m */; };
+		A92FA6D7CF143C0FECDB41265FDA9526 /* Pods-Branch Locator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DB8A742589C580B3DC2AE525E34947 /* Pods-Branch Locator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4F5D3B9E182497A3B975C206ABDBC11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCEC804F93AA3668637F44A5108F7EF /* AppDelegate.swift */; };
+		B5937BEE288C00445846A0BEFF923A5F /* CustomPlacemarkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC48DC44D52FE42B9C4E7F195EEF8D /* CustomPlacemarkModel.swift */; };
+		BF50661937FCDB602617544EAE18A6B9 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572D50D3B5C4F1848488191572833DBA /* Utilities.swift */; };
+		E43A4EC1497D421939E6FEE4ABD48563 /* Pods-Branch LocatorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CA0831B9F731683B781123B4630D335 /* Pods-Branch LocatorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54DCA066887B1BF69671944F90911B39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58CDAA21CCF14558D7911680689F625C;
+			remoteInfo = LocatorLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021EDE1CC2FC6441A4E06B68862460A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08ACF76A8C5DD07EDFFE3A0B220B76A1 /* LocatorLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LocatorLibrary.framework; path = LocatorLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		096D61A399ADA7FE2E07CFB06FE17D46 /* LocatorLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocatorLibrary.xcconfig; sourceTree = "<group>"; };
+		0CD8BFADBCC674FE8AA27E3AE0BA79FA /* ViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = LocatorLibrary/ViewController.swift; sourceTree = "<group>"; };
+		0F79E221716C61F91C4DD2271D5DB021 /* Pods-Branch Locator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Branch Locator-acknowledgements.plist"; sourceTree = "<group>"; };
+		22FA6753F5FBF61CA243E749AAE4FECD /* Pods-Branch LocatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Branch LocatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CA0831B9F731683B781123B4630D335 /* Pods-Branch LocatorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Branch LocatorTests-umbrella.h"; sourceTree = "<group>"; };
+		2CAFA32285537BF9AB271C326FBCFEB3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		349DA912B4512D14FE0857B8954212B4 /* Pods_Branch_Locator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Branch_Locator.framework; path = "Pods-Branch Locator.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3715AF931A8DB1AF37D5474B5F194BCF /* Pods-Branch LocatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Branch LocatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		46E8FDCD2250F9D4AC80F27AFDBD260D /* Pods-Branch LocatorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Branch LocatorTests-dummy.m"; sourceTree = "<group>"; };
+		482187DCCFF7AF979082E8A6F393CB0B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		490FFB14CA35CC63304E81F38D4DC31E /* Pods-Branch Locator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Branch Locator-dummy.m"; sourceTree = "<group>"; };
+		572D50D3B5C4F1848488191572833DBA /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = LocatorLibrary/Utilities/Utilities.swift; sourceTree = "<group>"; };
+		5BCBC7A6E4719AAD25B7966B3901EFA9 /* Pods-Branch Locator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Branch Locator.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6B9F2206F8F48D481DCBC0A1C2C0545A /* Pods-Branch Locator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Branch Locator-resources.sh"; sourceTree = "<group>"; };
+		703BD3745F855614E3D78FF5D3D8C3A8 /* Pods-Branch LocatorTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Branch LocatorTests-resources.sh"; sourceTree = "<group>"; };
+		7C7A6B864AA06BD6CC78AD67C729800B /* LocatorLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LocatorLibrary.modulemap; sourceTree = "<group>"; };
+		7EFC48DC44D52FE42B9C4E7F195EEF8D /* CustomPlacemarkModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomPlacemarkModel.swift; path = LocatorLibrary/Views/CustomPlacemarkModel.swift; sourceTree = "<group>"; };
+		87CF0AFD5EBFF57D8121E441F3963E3A /* Pods-Branch LocatorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Branch LocatorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96382E8B577288F6ADB67953BD7AE8E1 /* Pods-Branch LocatorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Branch LocatorTests.modulemap"; sourceTree = "<group>"; };
+		96F54CCF011E46A1B721AE52A7D2DFC5 /* LocatorLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocatorLibrary-umbrella.h"; sourceTree = "<group>"; };
+		A5884134BAF8728297765DB1DD7B6531 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A719A895819B1B2319BC4CEBE58ED18F /* LocatorLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LocatorLibrary-dummy.m"; sourceTree = "<group>"; };
+		B39D907F2A47DCEAF3C84A518A9511C5 /* Pods-Branch Locator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Branch Locator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BAB8240BC32A7E916E960A8A89BD375D /* Pods_Branch_LocatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Branch_LocatorTests.framework; path = "Pods-Branch LocatorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA6616DE99629864D1869192C8C59F5 /* ServiceIdentifierEnum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceIdentifierEnum.swift; path = LocatorLibrary/Service/ServiceIdentifierEnum.swift; sourceTree = "<group>"; };
+		BBCEC804F93AA3668637F44A5108F7EF /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = LocatorLibrary/AppDelegate.swift; sourceTree = "<group>"; };
+		BF2AC4D168CAF974387D77C951843873 /* Pods-Branch Locator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Branch Locator-frameworks.sh"; sourceTree = "<group>"; };
+		C18F05D194FFA524F32C277AFAF44D8D /* Pods-Branch LocatorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Branch LocatorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C285857E4F1C3586869217923EE74329 /* LocatorLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocatorLibrary-prefix.pch"; sourceTree = "<group>"; };
+		C3CD3D4ED56700F7D0DDF20A53040CD7 /* ColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorExtension.swift; path = LocatorLibrary/Utilities/ColorExtension.swift; sourceTree = "<group>"; };
+		C6D7D6EAA0FB106C46642BFEAEBC6C17 /* LocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = LocatorLibrary/Managers/LocationManager.swift; sourceTree = "<group>"; };
+		CCABDF57947B57A0180B6053F8104CCB /* BaseService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseService.swift; path = LocatorLibrary/Service/BaseService.swift; sourceTree = "<group>"; };
+		D3D1BBAC049972514B69A003ED036E38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28CCEABEAFA70FD6376A77AFDCD31B9 /* Pods-Branch LocatorTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Branch LocatorTests-frameworks.sh"; sourceTree = "<group>"; };
+		E714FAEFE45A4B7A3D0E6254A74FDFCD /* Pods-Branch Locator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Branch Locator.release.xcconfig"; sourceTree = "<group>"; };
+		F6DB8A742589C580B3DC2AE525E34947 /* Pods-Branch Locator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Branch Locator-umbrella.h"; sourceTree = "<group>"; };
+		FB78F2D15B9B613B19FA42D95F053810 /* Pods-Branch Locator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Branch Locator.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87ED7F979FB7F61786BDBF051BDEC08D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7F695D4AD63732630A3EBF6D3F6E13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8AB3C9F986D2F953F36E53E01A18E23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EAE0E7D9268C1171A647BFED58166D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADECB447A8FA5A849DA64779F5057C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9E33C5429C6B7F7FE254BC30EC7AFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16E9707D462CB176237677C62A2E5998 /* Pods-Branch Locator */ = {
+			isa = PBXGroup;
+			children = (
+				021EDE1CC2FC6441A4E06B68862460A6 /* Info.plist */,
+				FB78F2D15B9B613B19FA42D95F053810 /* Pods-Branch Locator.modulemap */,
+				B39D907F2A47DCEAF3C84A518A9511C5 /* Pods-Branch Locator-acknowledgements.markdown */,
+				0F79E221716C61F91C4DD2271D5DB021 /* Pods-Branch Locator-acknowledgements.plist */,
+				490FFB14CA35CC63304E81F38D4DC31E /* Pods-Branch Locator-dummy.m */,
+				BF2AC4D168CAF974387D77C951843873 /* Pods-Branch Locator-frameworks.sh */,
+				6B9F2206F8F48D481DCBC0A1C2C0545A /* Pods-Branch Locator-resources.sh */,
+				F6DB8A742589C580B3DC2AE525E34947 /* Pods-Branch Locator-umbrella.h */,
+				5BCBC7A6E4719AAD25B7966B3901EFA9 /* Pods-Branch Locator.debug.xcconfig */,
+				E714FAEFE45A4B7A3D0E6254A74FDFCD /* Pods-Branch Locator.release.xcconfig */,
+			);
+			name = "Pods-Branch Locator";
+			path = "Target Support Files/Pods-Branch Locator";
+			sourceTree = "<group>";
+		};
+		429652AF439C1A6784CF4030FD5AD90C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08ACF76A8C5DD07EDFFE3A0B220B76A1 /* LocatorLibrary.framework */,
+				349DA912B4512D14FE0857B8954212B4 /* Pods_Branch_Locator.framework */,
+				BAB8240BC32A7E916E960A8A89BD375D /* Pods_Branch_LocatorTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FDBC96F27E643122196E8AA85F3AD0E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D2F0B0F464D7A658CECB142BAB44D8C /* LaunchScreen.storyboard */,
+				B89407652FA05147D62799DB8C90F202 /* Main.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5354B7F86509CB9D44AF9F65D35856EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF0F9E1F71BB0BD560A2495CD3721F51 /* LocatorLibrary */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5354B7F86509CB9D44AF9F65D35856EA /* Pods */,
+				429652AF439C1A6784CF4030FD5AD90C /* Products */,
+				DC396ED7E82C50A942DE1405E6E53BA9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A649CBC21E4BAFBB09ACFEB77E0F8527 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3D1BBAC049972514B69A003ED036E38 /* Info.plist */,
+				7C7A6B864AA06BD6CC78AD67C729800B /* LocatorLibrary.modulemap */,
+				096D61A399ADA7FE2E07CFB06FE17D46 /* LocatorLibrary.xcconfig */,
+				A719A895819B1B2319BC4CEBE58ED18F /* LocatorLibrary-dummy.m */,
+				C285857E4F1C3586869217923EE74329 /* LocatorLibrary-prefix.pch */,
+				96F54CCF011E46A1B721AE52A7D2DFC5 /* LocatorLibrary-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LocatorLibrary";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF0F9E1F71BB0BD560A2495CD3721F51 /* LocatorLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				BBCEC804F93AA3668637F44A5108F7EF /* AppDelegate.swift */,
+				CCABDF57947B57A0180B6053F8104CCB /* BaseService.swift */,
+				C3CD3D4ED56700F7D0DDF20A53040CD7 /* ColorExtension.swift */,
+				7EFC48DC44D52FE42B9C4E7F195EEF8D /* CustomPlacemarkModel.swift */,
+				C6D7D6EAA0FB106C46642BFEAEBC6C17 /* LocationManager.swift */,
+				BBA6616DE99629864D1869192C8C59F5 /* ServiceIdentifierEnum.swift */,
+				572D50D3B5C4F1848488191572833DBA /* Utilities.swift */,
+				0CD8BFADBCC674FE8AA27E3AE0BA79FA /* ViewController.swift */,
+				4FDBC96F27E643122196E8AA85F3AD0E /* Resources */,
+				A649CBC21E4BAFBB09ACFEB77E0F8527 /* Support Files */,
+			);
+			name = LocatorLibrary;
+			path = LocatorLibrary;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DB6E8F3ACF5B5E1707E0E918A2692E90 /* Pods-Branch LocatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CAFA32285537BF9AB271C326FBCFEB3 /* Info.plist */,
+				96382E8B577288F6ADB67953BD7AE8E1 /* Pods-Branch LocatorTests.modulemap */,
+				C18F05D194FFA524F32C277AFAF44D8D /* Pods-Branch LocatorTests-acknowledgements.markdown */,
+				87CF0AFD5EBFF57D8121E441F3963E3A /* Pods-Branch LocatorTests-acknowledgements.plist */,
+				46E8FDCD2250F9D4AC80F27AFDBD260D /* Pods-Branch LocatorTests-dummy.m */,
+				E28CCEABEAFA70FD6376A77AFDCD31B9 /* Pods-Branch LocatorTests-frameworks.sh */,
+				703BD3745F855614E3D78FF5D3D8C3A8 /* Pods-Branch LocatorTests-resources.sh */,
+				2CA0831B9F731683B781123B4630D335 /* Pods-Branch LocatorTests-umbrella.h */,
+				22FA6753F5FBF61CA243E749AAE4FECD /* Pods-Branch LocatorTests.debug.xcconfig */,
+				3715AF931A8DB1AF37D5474B5F194BCF /* Pods-Branch LocatorTests.release.xcconfig */,
+			);
+			name = "Pods-Branch LocatorTests";
+			path = "Target Support Files/Pods-Branch LocatorTests";
+			sourceTree = "<group>";
+		};
+		DC396ED7E82C50A942DE1405E6E53BA9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16E9707D462CB176237677C62A2E5998 /* Pods-Branch Locator */,
+				DB6E8F3ACF5B5E1707E0E918A2692E90 /* Pods-Branch LocatorTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13A977CA1D6E907F3CD25672D1A0BC69 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92FA6D7CF143C0FECDB41265FDA9526 /* Pods-Branch Locator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767E6ACE033EB6D5B3EF71B569C81167 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E3565C154C511E9BAF4EDECD0A6FF2 /* LocatorLibrary-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6D2BF3D343E32FBD7853FD16738B9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43A4EC1497D421939E6FEE4ABD48563 /* Pods-Branch LocatorTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4DC669244282978FFAC83555E7849475 /* Pods-Branch LocatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B1358ECBB4E64A7987ADF1213675295 /* Build configuration list for PBXNativeTarget "Pods-Branch LocatorTests" */;
+			buildPhases = (
+				150F4038DCB1DA5E0A480D9153C991A2 /* Sources */,
+				87ED7F979FB7F61786BDBF051BDEC08D /* Frameworks */,
+				9E6D2BF3D343E32FBD7853FD16738B9E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Branch LocatorTests";
+			productName = "Pods-Branch LocatorTests";
+			productReference = BAB8240BC32A7E916E960A8A89BD375D /* Pods_Branch_LocatorTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		58CDAA21CCF14558D7911680689F625C /* LocatorLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5C1E8ED3AD80768A27AD67EBFF00E2 /* Build configuration list for PBXNativeTarget "LocatorLibrary" */;
+			buildPhases = (
+				C613122BD7779B11C2E65939A0AFC062 /* Sources */,
+				D8AB3C9F986D2F953F36E53E01A18E23 /* Frameworks */,
+				EF15E79A8EE31E070E05F9A32B9FAB14 /* Resources */,
+				767E6ACE033EB6D5B3EF71B569C81167 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocatorLibrary;
+			productName = LocatorLibrary;
+			productReference = 08ACF76A8C5DD07EDFFE3A0B220B76A1 /* LocatorLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5FADCBBF09FAA391C3DA3C055F3E54AD /* Pods-Branch Locator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF573EBCA0A2645AEEC9DCE9DB02A4ED /* Build configuration list for PBXNativeTarget "Pods-Branch Locator" */;
+			buildPhases = (
+				367501C801EA14C1441462D26E74865B /* Sources */,
+				DADECB447A8FA5A849DA64779F5057C4 /* Frameworks */,
+				13A977CA1D6E907F3CD25672D1A0BC69 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F943DB189BD4B99A713E114EE107B51A /* PBXTargetDependency */,
+			);
+			name = "Pods-Branch Locator";
+			productName = "Pods-Branch Locator";
+			productReference = 349DA912B4512D14FE0857B8954212B4 /* Pods_Branch_Locator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 429652AF439C1A6784CF4030FD5AD90C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58CDAA21CCF14558D7911680689F625C /* LocatorLibrary */,
+				5FADCBBF09FAA391C3DA3C055F3E54AD /* Pods-Branch Locator */,
+				4DC669244282978FFAC83555E7849475 /* Pods-Branch LocatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF15E79A8EE31E070E05F9A32B9FAB14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590117AFC33FA4959496A7C30DBEEE78 /* LaunchScreen.storyboard in Resources */,
+				887AACFE5023564029653B90C1150B4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		150F4038DCB1DA5E0A480D9153C991A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DADACFB7378C4B0C2EB5EBE420D10D6 /* Pods-Branch LocatorTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367501C801EA14C1441462D26E74865B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CDB3E4E65E3E2CE984B7AEF168C4DCF /* Pods-Branch Locator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C613122BD7779B11C2E65939A0AFC062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F5D3B9E182497A3B975C206ABDBC11 /* AppDelegate.swift in Sources */,
+				30F6E9171B9CDEB25A8A39EB4DB8FE5C /* BaseService.swift in Sources */,
+				0620A2BD56C2561F8E94DA80BEC8518D /* ColorExtension.swift in Sources */,
+				B5937BEE288C00445846A0BEFF923A5F /* CustomPlacemarkModel.swift in Sources */,
+				87F618D8A4E44257318C9B85E917996D /* LocationManager.swift in Sources */,
+				010B00E1395BA47DAD84A45102CBB351 /* LocatorLibrary-dummy.m in Sources */,
+				78B6F6705BB88F0C703072162491EC2E /* ServiceIdentifierEnum.swift in Sources */,
+				BF50661937FCDB602617544EAE18A6B9 /* Utilities.swift in Sources */,
+				0228F50BB041CF1C33937E1E55DB21F5 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F943DB189BD4B99A713E114EE107B51A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LocatorLibrary;
+			target = 58CDAA21CCF14558D7911680689F625C /* LocatorLibrary */;
+			targetProxy = 54DCA066887B1BF69671944F90911B39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D2F0B0F464D7A658CECB142BAB44D8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				482187DCCFF7AF979082E8A6F393CB0B /* LaunchScreen.storyboard */,
+			);
+			name = LaunchScreen.storyboard;
+			path = LocatorLibrary;
+			sourceTree = "<group>";
+		};
+		B89407652FA05147D62799DB8C90F202 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5884134BAF8728297765DB1DD7B6531 /* Main.storyboard */,
+			);
+			name = Main.storyboard;
+			path = LocatorLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30957619A86A28C47CE62BEDA7D0626D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 096D61A399ADA7FE2E07CFB06FE17D46 /* LocatorLibrary.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXPANDED_CODE_SIGN_IDENTITY = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LocatorLibrary/LocatorLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LocatorLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LocatorLibrary/LocatorLibrary.modulemap";
+				PRODUCT_NAME = LocatorLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32A77506A7AFB2269B5F2D8DCC0CAA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BCBC7A6E4719AAD25B7966B3901EFA9 /* Pods-Branch Locator.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXPANDED_CODE_SIGN_IDENTITY = "";
+				INFOPLIST_FILE = "Target Support Files/Pods-Branch Locator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Branch Locator/Pods-Branch Locator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Branch_Locator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		404D075CC7DFE627C97BEDA4B47117C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3715AF931A8DB1AF37D5474B5F194BCF /* Pods-Branch LocatorTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXPANDED_CODE_SIGN_IDENTITY = "";
+				INFOPLIST_FILE = "Target Support Files/Pods-Branch LocatorTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Branch LocatorTests/Pods-Branch LocatorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Branch_LocatorTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		76B9C0AAA8355D0E4C0CAF5EF69C8EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E714FAEFE45A4B7A3D0E6254A74FDFCD /* Pods-Branch Locator.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXPANDED_CODE_SIGN_IDENTITY = "";
+				INFOPLIST_FILE = "Target Support Files/Pods-Branch Locator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Branch Locator/Pods-Branch Locator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Branch_Locator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CB5326DA54B3AA33A8D0E397F11C9B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 096D61A399ADA7FE2E07CFB06FE17D46 /* LocatorLibrary.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXPANDED_CODE_SIGN_IDENTITY = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LocatorLibrary/LocatorLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LocatorLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LocatorLibrary/LocatorLibrary.modulemap";
+				PRODUCT_NAME = LocatorLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3A575967918B98BA5BD32D62C022E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22FA6753F5FBF61CA243E749AAE4FECD /* Pods-Branch LocatorTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXPANDED_CODE_SIGN_IDENTITY = "";
+				INFOPLIST_FILE = "Target Support Files/Pods-Branch LocatorTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Branch LocatorTests/Pods-Branch LocatorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Branch_LocatorTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B1358ECBB4E64A7987ADF1213675295 /* Build configuration list for PBXNativeTarget "Pods-Branch LocatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A575967918B98BA5BD32D62C022E14 /* Debug */,
+				404D075CC7DFE627C97BEDA4B47117C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE5C1E8ED3AD80768A27AD67EBFF00E2 /* Build configuration list for PBXNativeTarget "LocatorLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5326DA54B3AA33A8D0E397F11C9B79 /* Debug */,
+				30957619A86A28C47CE62BEDA7D0626D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF573EBCA0A2645AEEC9DCE9DB02A4ED /* Build configuration list for PBXNativeTarget "Pods-Branch Locator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A77506A7AFB2269B5F2D8DCC0CAA80 /* Debug */,
+				76B9C0AAA8355D0E4C0CAF5EF69C8EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

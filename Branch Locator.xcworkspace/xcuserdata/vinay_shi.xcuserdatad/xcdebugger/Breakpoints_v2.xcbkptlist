@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Branch Locator/Services/ServicesHandler.swift"
+            timestampString = "530960359.734535"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "getStoresList(requestModel:delegate:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Branch_Locator.ServicesHandler.deinit"
+                  moduleName = "Branch Locator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vinay_shi/Desktop/Branch%20Locator/Branch%20Locator/Services/ServicesHandler.swift"
+                  timestampString = "530982028.773708"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Branch_Locator.ServicesHandler.__deallocating_deinit"
+                  moduleName = "Branch Locator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vinay_shi/Desktop/Branch%20Locator/Branch%20Locator/Services/ServicesHandler.swift"
+                  timestampString = "530982028.77613"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Branch_Locator.ServicesHandler.__allocating_init() -&gt; Branch_Locator.ServicesHandler"
+                  moduleName = "Branch Locator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vinay_shi/Desktop/Branch%20Locator/Branch%20Locator/Services/ServicesHandler.swift"
+                  timestampString = "530982028.778688"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Branch_Locator.ServicesHandler.init() -&gt; Branch_Locator.ServicesHandler"
+                  moduleName = "Branch Locator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vinay_shi/Desktop/Branch%20Locator/Branch%20Locator/Services/ServicesHandler.swift"
+                  timestampString = "530982028.781082"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../LocatorLibrary/LocatorLibrary/Utilities/Utilities.swift"
+            timestampString = "530960359.734598"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "convertToArray(data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

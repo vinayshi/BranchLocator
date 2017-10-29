@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F34536E4A5930200843BBC4 /* Pods_Branch_LocatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBD6757AC0DC6638BD252DF /* Pods_Branch_LocatorTests.framework */; };
+		232830F09B845402F4529C8B /* Pods_Branch_Locator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8EC09A87A9F2301A43FE07 /* Pods_Branch_Locator.framework */; };
+		2B54EB331FA5B64C00EEBCE3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B54EB2C1FA5B64C00EEBCE3 /* BaseViewController.swift */; };
+		2B54EB341FA5B64C00EEBCE3 /* StoreLocaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B54EB2E1FA5B64C00EEBCE3 /* StoreLocaterViewController.swift */; };
+		2B54EB351FA5B64C00EEBCE3 /* StoreLocatorDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B54EB301FA5B64C00EEBCE3 /* StoreLocatorDetailsViewController.swift */; };
+		2B54EB8A1FA5CFDC00EEBCE3 /* URIConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B54EB891FA5CFDC00EEBCE3 /* URIConfig.plist */; };
+		2B54EB8E1FA6214E00EEBCE3 /* CustomAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B54EB8C1FA6214E00EEBCE3 /* CustomAnnotationView.swift */; };
 		2B67B7EB1FA447030054CFDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B67B7EA1FA447030054CFDB /* AppDelegate.swift */; };
-		2B67B7ED1FA447030054CFDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B67B7EC1FA447030054CFDB /* ViewController.swift */; };
 		2B67B7F01FA447030054CFDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B67B7EE1FA447030054CFDB /* Main.storyboard */; };
 		2B67B7F21FA447030054CFDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B67B7F11FA447030054CFDB /* Assets.xcassets */; };
 		2B67B7F51FA447030054CFDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B67B7F31FA447030054CFDB /* LaunchScreen.storyboard */; };
 		2B67B8001FA447030054CFDB /* Branch_LocatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B67B7FF1FA447030054CFDB /* Branch_LocatorTests.swift */; };
 		2B67B80B1FA447030054CFDB /* Branch_LocatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B67B80A1FA447030054CFDB /* Branch_LocatorUITests.swift */; };
+		2B67B8391FA45BB00054CFDB /* StoreLocaterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B67B82D1FA45BB00054CFDB /* StoreLocaterViewModel.swift */; };
+		2B67B83E1FA45BB00054CFDB /* ServicesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B67B8341FA45BB00054CFDB /* ServicesHandler.swift */; };
+		2B67B8401FA45BB00054CFDB /* StoreFinderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B67B8371FA45BB00054CFDB /* StoreFinderModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B54EB2C1FA5B64C00EEBCE3 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2B54EB2E1FA5B64C00EEBCE3 /* StoreLocaterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreLocaterViewController.swift; sourceTree = "<group>"; };
+		2B54EB301FA5B64C00EEBCE3 /* StoreLocatorDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreLocatorDetailsViewController.swift; sourceTree = "<group>"; };
+		2B54EB891FA5CFDC00EEBCE3 /* URIConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = URIConfig.plist; sourceTree = "<group>"; };
+		2B54EB8C1FA6214E00EEBCE3 /* CustomAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnnotationView.swift; sourceTree = "<group>"; };
 		2B67B7E71FA447030054CFDB /* Branch Locator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Branch Locator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B67B7EA1FA447030054CFDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B67B7EC1FA447030054CFDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2B67B7EF1FA447030054CFDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B67B7F11FA447030054CFDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B67B7F41FA447030054CFDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +60,15 @@
 		2B67B8061FA447030054CFDB /* Branch LocatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Branch LocatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B67B80A1FA447030054CFDB /* Branch_LocatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Branch_LocatorUITests.swift; sourceTree = "<group>"; };
 		2B67B80C1FA447030054CFDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B67B82D1FA45BB00054CFDB /* StoreLocaterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreLocaterViewModel.swift; sourceTree = "<group>"; };
+		2B67B8341FA45BB00054CFDB /* ServicesHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesHandler.swift; sourceTree = "<group>"; };
+		2B67B8371FA45BB00054CFDB /* StoreFinderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreFinderModel.swift; sourceTree = "<group>"; };
+		38751F4119B1F9890A83894B /* Pods-Branch LocatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Branch LocatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Branch LocatorTests/Pods-Branch LocatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		469C9C969389424D6C3758BE /* Pods-Branch LocatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Branch LocatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Branch LocatorTests/Pods-Branch LocatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		6CBD6757AC0DC6638BD252DF /* Pods_Branch_LocatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Branch_LocatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8EC09A87A9F2301A43FE07 /* Pods_Branch_Locator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Branch_Locator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92ABA816A4F2C1254366D637 /* Pods-Branch Locator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Branch Locator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Branch Locator/Pods-Branch Locator.debug.xcconfig"; sourceTree = "<group>"; };
+		BF4CF7ACD27290C4D9FAD3BF /* Pods-Branch Locator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Branch Locator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Branch Locator/Pods-Branch Locator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				232830F09B845402F4529C8B /* Pods_Branch_Locator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F34536E4A5930200843BBC4 /* Pods_Branch_LocatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +98,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B54EB2B1FA5B64C00EEBCE3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B54EB2C1FA5B64C00EEBCE3 /* BaseViewController.swift */,
+				2B54EB2D1FA5B64C00EEBCE3 /* Store */,
+				2B54EB2F1FA5B64C00EEBCE3 /* StoreDetails */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2B54EB2D1FA5B64C00EEBCE3 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				2B54EB2E1FA5B64C00EEBCE3 /* StoreLocaterViewController.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		2B54EB2F1FA5B64C00EEBCE3 /* StoreDetails */ = {
+			isa = PBXGroup;
+			children = (
+				2B54EB301FA5B64C00EEBCE3 /* StoreLocatorDetailsViewController.swift */,
+			);
+			path = StoreDetails;
+			sourceTree = "<group>";
+		};
+		2B54EB8B1FA6214E00EEBCE3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B54EB8C1FA6214E00EEBCE3 /* CustomAnnotationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2B67B7DE1FA447030054CFDB = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +139,8 @@
 				2B67B7FE1FA447030054CFDB /* Branch LocatorTests */,
 				2B67B8091FA447030054CFDB /* Branch LocatorUITests */,
 				2B67B7E81FA447030054CFDB /* Products */,
+				4C5FE36191C0CA19C831298C /* Pods */,
+				2E7E5B8BFF87C7D1B3C142E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +157,13 @@
 		2B67B7E91FA447030054CFDB /* Branch Locator */ = {
 			isa = PBXGroup;
 			children = (
+				2B54EB8B1FA6214E00EEBCE3 /* Views */,
+				2B54EB891FA5CFDC00EEBCE3 /* URIConfig.plist */,
+				2B67B8351FA45BB00054CFDB /* Models */,
+				2B67B8311FA45BB00054CFDB /* Services */,
+				2B67B82C1FA45BB00054CFDB /* ViewModels */,
 				2B67B7EA1FA447030054CFDB /* AppDelegate.swift */,
-				2B67B7EC1FA447030054CFDB /* ViewController.swift */,
+				2B54EB2B1FA5B64C00EEBCE3 /* ViewControllers */,
 				2B67B7EE1FA447030054CFDB /* Main.storyboard */,
 				2B67B7F11FA447030054CFDB /* Assets.xcassets */,
 				2B67B7F31FA447030054CFDB /* LaunchScreen.storyboard */,
@@ -125,6 +190,50 @@
 			path = "Branch LocatorUITests";
 			sourceTree = "<group>";
 		};
+		2B67B82C1FA45BB00054CFDB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2B67B82D1FA45BB00054CFDB /* StoreLocaterViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2B67B8311FA45BB00054CFDB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2B67B8341FA45BB00054CFDB /* ServicesHandler.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2B67B8351FA45BB00054CFDB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B67B8371FA45BB00054CFDB /* StoreFinderModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2E7E5B8BFF87C7D1B3C142E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F8EC09A87A9F2301A43FE07 /* Pods_Branch_Locator.framework */,
+				6CBD6757AC0DC6638BD252DF /* Pods_Branch_LocatorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C5FE36191C0CA19C831298C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92ABA816A4F2C1254366D637 /* Pods-Branch Locator.debug.xcconfig */,
+				BF4CF7ACD27290C4D9FAD3BF /* Pods-Branch Locator.release.xcconfig */,
+				38751F4119B1F9890A83894B /* Pods-Branch LocatorTests.debug.xcconfig */,
+				469C9C969389424D6C3758BE /* Pods-Branch LocatorTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B67B80F1FA447030054CFDB /* Build configuration list for PBXNativeTarget "Branch Locator" */;
 			buildPhases = (
+				DE955414EEEB9E08F2AE71FC /* [CP] Check Pods Manifest.lock */,
 				2B67B7E31FA447030054CFDB /* Sources */,
 				2B67B7E41FA447030054CFDB /* Frameworks */,
 				2B67B7E51FA447030054CFDB /* Resources */,
+				3F7F847B4B193C9596016B36 /* [CP] Embed Pods Frameworks */,
+				379A5C1108876441FBA47518 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B67B8121FA447030054CFDB /* Build configuration list for PBXNativeTarget "Branch LocatorTests" */;
 			buildPhases = (
+				6BE689A77FCC574A997D17AD /* [CP] Check Pods Manifest.lock */,
 				2B67B7F71FA447030054CFDB /* Sources */,
 				2B67B7F81FA447030054CFDB /* Frameworks */,
 				2B67B7F91FA447030054CFDB /* Resources */,
+				AAB422DB11BF3B5593CD96C1 /* [CP] Embed Pods Frameworks */,
+				23063EA1A387BB304AD386F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +350,7 @@
 				2B67B7F51FA447030054CFDB /* LaunchScreen.storyboard in Resources */,
 				2B67B7F21FA447030054CFDB /* Assets.xcassets in Resources */,
 				2B67B7F01FA447030054CFDB /* Main.storyboard in Resources */,
+				2B54EB8A1FA5CFDC00EEBCE3 /* URIConfig.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +370,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23063EA1A387BB304AD386F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Branch LocatorTests/Pods-Branch LocatorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		379A5C1108876441FBA47518 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Branch Locator/Pods-Branch Locator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F7F847B4B193C9596016B36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Branch Locator/Pods-Branch Locator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LocatorLibrary/LocatorLibrary.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LocatorLibrary.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Branch Locator/Pods-Branch Locator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BE689A77FCC574A997D17AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Branch LocatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAB422DB11BF3B5593CD96C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Branch LocatorTests/Pods-Branch LocatorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE955414EEEB9E08F2AE71FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Branch Locator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2B67B7E31FA447030054CFDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B67B7ED1FA447030054CFDB /* ViewController.swift in Sources */,
+				2B67B8401FA45BB00054CFDB /* StoreFinderModel.swift in Sources */,
+				2B54EB341FA5B64C00EEBCE3 /* StoreLocaterViewController.swift in Sources */,
+				2B54EB331FA5B64C00EEBCE3 /* BaseViewController.swift in Sources */,
+				2B67B8391FA45BB00054CFDB /* StoreLocaterViewModel.swift in Sources */,
 				2B67B7EB1FA447030054CFDB /* AppDelegate.swift in Sources */,
+				2B67B83E1FA45BB00054CFDB /* ServicesHandler.swift in Sources */,
+				2B54EB8E1FA6214E00EEBCE3 /* CustomAnnotationView.swift in Sources */,
+				2B54EB351FA5B64C00EEBCE3 /* StoreLocatorDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +648,7 @@
 		};
 		2B67B8101FA447030054CFDB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92ABA816A4F2C1254366D637 /* Pods-Branch Locator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +663,7 @@
 		};
 		2B67B8111FA447030054CFDB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF4CF7ACD27290C4D9FAD3BF /* Pods-Branch Locator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +678,7 @@
 		};
 		2B67B8131FA447030054CFDB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38751F4119B1F9890A83894B /* Pods-Branch LocatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +695,7 @@
 		};
 		2B67B8141FA447030054CFDB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 469C9C969389424D6C3758BE /* Pods-Branch LocatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
