@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0F34536E4A5930200843BBC4 /* Pods_Branch_LocatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBD6757AC0DC6638BD252DF /* Pods_Branch_LocatorTests.framework */; };
 		232830F09B845402F4529C8B /* Pods_Branch_Locator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8EC09A87A9F2301A43FE07 /* Pods_Branch_Locator.framework */; };
+		2B4D67201FAB9CC000EAC058 /* StoreLocatorDetailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4D671F1FAB9CC000EAC058 /* StoreLocatorDetailsTests.swift */; };
 		2B54EB331FA5B64C00EEBCE3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B54EB2C1FA5B64C00EEBCE3 /* BaseViewController.swift */; };
 		2B54EB341FA5B64C00EEBCE3 /* StoreLocaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B54EB2E1FA5B64C00EEBCE3 /* StoreLocaterViewController.swift */; };
 		2B54EB351FA5B64C00EEBCE3 /* StoreLocatorDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B54EB301FA5B64C00EEBCE3 /* StoreLocatorDetailsViewController.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B4D671F1FAB9CC000EAC058 /* StoreLocatorDetailsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreLocatorDetailsTests.swift; sourceTree = "<group>"; };
 		2B54EB2C1FA5B64C00EEBCE3 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		2B54EB2E1FA5B64C00EEBCE3 /* StoreLocaterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreLocaterViewController.swift; sourceTree = "<group>"; };
 		2B54EB301FA5B64C00EEBCE3 /* StoreLocatorDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreLocatorDetailsViewController.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				2B67B7FF1FA447030054CFDB /* Branch_LocatorTests.swift */,
+				2B4D671F1FAB9CC000EAC058 /* StoreLocatorDetailsTests.swift */,
 				2B67B8011FA447030054CFDB /* Info.plist */,
 			);
 			path = "Branch LocatorTests";
@@ -493,6 +496,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B67B8001FA447030054CFDB /* Branch_LocatorTests.swift in Sources */,
+				2B4D67201FAB9CC000EAC058 /* StoreLocatorDetailsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

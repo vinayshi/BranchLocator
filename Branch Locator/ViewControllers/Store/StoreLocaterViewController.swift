@@ -21,6 +21,7 @@ class StoreLocaterViewController: BaseViewController {
     var viewModel:StoreLocaterViewModel?
     /// annotations to display on the mapview
     var annotations = [MKPointAnnotation]()
+
     /**
      This method is called after the view controller has loaded its view hierarchy into memory. You usually override this method to perform additional initialization on views that were loaded from nib files.
      */
@@ -165,4 +166,3 @@ extension StoreLocaterViewController: MKMapViewDelegate {
         }
     }
 }
-

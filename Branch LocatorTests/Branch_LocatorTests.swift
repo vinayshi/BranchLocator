@@ -7,13 +7,20 @@
 //
 
 import XCTest
-@testable import ATM_Branch_Locator
+import MapKit
+
+@testable import Branch_Locator
 
 class Branch_LocatorTests: XCTestCase {
-    
+    var vc: StoreLocaterViewController!
+    var locationManager:CLLocationManager =  CLLocationManager()
+    var currentLocation:CLLocation = CLLocation()
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        vc = storyboard.instantiateViewController(withIdentifier: "StoreLocaterViewController") as! StoreLocaterViewController
+        let _ = vc.view
     }
     
     override func tearDown() {
@@ -32,5 +39,46 @@ class Branch_LocatorTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    func testViewDidLoad(){
+        XCTAssertNotNil(vc.viewDidLoad())
+    }
     
+    func testViewControllerIsComposedOfMapView() {
+        XCTAssertNotNil(vc.mapView, "ViewController under test is not composed of a MKMapView")
+    }
+    
+    func testMapViewDelegateIsSet() {
+        XCTAssertNotNil(self.vc.mapView.delegate)
+    }
+    func testMapViewuseMyLocation() {
+        XCTAssertNotNil(self.vc.useMyLocation())
+    }
+    func testAddRadiusCircle() {
+        XCTAssertNotNil(self.vc.addRadiusCircle(location: currentLocation))
+    }
+    
+    func testControllerImplementsMKMapViewDelegateMethods() {
+        XCTAssertTrue(vc.responds(to: #selector(StoreLocaterViewController.mapView(_:viewFor:))),"ViewController under test does not implement mapView:viewForAnnotation")
+    }
+    
+    func testMapViewCanRenderPolygonByImplementingMapViewRendererForOverlay() {
+        XCTAssert(self.vc.responds(to: #selector(StoreLocaterViewController.mapView(_:rendererFor:))))
+    }
+    
+    func hasTargetAnnotation(annotationClass: MKAnnotation.Type) -> Bool {
+        let mapAnnotations = self.vc.mapView.annotations
+        var hasTargetAnnotation = false
+        for anno in mapAnnotations {
+            if (anno.isKind(of: annotationClass)) {
+                hasTargetAnnotation = true
+            }
+        }
+        return hasTargetAnnotation
+    }
+    func testMapViewCanRenderPolygonByImplementingMapViewRendererForOverlay1() {
+        XCTAssert(self.vc.responds(to: #selector(MKMapViewDelegate.mapView(_:rendererFor:))))
+    }
+    func testService() {
+        
+    }
 }

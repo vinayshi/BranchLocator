@@ -17,7 +17,7 @@
         <!--Store Locater View Controller-->
         <scene sceneID="ija-RY-WLr">
             <objects>
-                <viewController storyboardIdentifier="StoreLocaterViewController" id="Tc6-xn-kQt" customClass="StoreLocaterViewController" customModule="VIOC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StoreLocaterViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Tc6-xn-kQt" customClass="StoreLocaterViewController" customModule="Branch_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oNF-pn-kbv"/>
                         <viewControllerLayoutGuide type="bottom" id="IOh-tv-RSH"/>
